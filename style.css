@@ -1,0 +1,564 @@
+.contenu{
+ width:992px;
+  margin: auto;
+}
+#head{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#color{
+    display: inline-block;
+    background-color: #df2020;
+    border: 50%;
+    color: white;
+   padding:2px 5px;
+   border-radius: 50%;
+   transform: translate(-45px, -15px);
+}
+.icoo{
+    margin: 0 7px;
+    scale:1.5;
+}
+#logo2{
+    padding-top: 21px;
+}
+#logo2 :nth-child(3){
+    display: none;
+}
+#text{
+    margin-top: 1px;
+}
+#menu{
+  margin-top: 40px;
+  word-spacing: 15px;
+}
+#menu a {
+    text-decoration: none;
+    color: #212245;
+}
+#button{
+    background-color: #df2020;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#button:hover{
+    background-color:#212245;
+}
+p i{
+    background-color: #df2020;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+#text1{
+    width: 50%;
+}
+#text1 h1{
+    color:#df2020 ;
+    text-align: left;
+    margin: 0;
+}
+#text1 h2{
+    margin: 0;
+}
+#texthero{
+    display: flex;
+}
+#hero img{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+#patisseries{
+    display: flex;
+    justify-content: space-between;
+}
+.patisseries1{
+    border-radius: 5px;
+    background-color: #eeb5b5 ;
+    padding: 10px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+#patisseries a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: #212245;
+}
+.gateau{
+    width: 50px;
+    height: 50px;
+}
+#text2{
+    text-align: center;
+    margin:50px;
+}
+.text2{
+    margin: 0;
+}
+
+#COLOR{
+    color: #df2020;
+}
+#services{
+    display: flex;
+    justify-content: space-around;
+}
+.srv{
+    padding: 20px;
+    margin: 20px;
+}
+#text3{
+    text-align: center;
+}
+#patisseries2{
+    display: flex;
+    border: 2px solid #df2020;
+    background-color: #df2020;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+}
+#patisseries2 a {
+    text-decoration: none;
+    color: white;
+
+}
+.patisseries2{
+width: 30px;
+height: 30px;
+}
+.patisserire2{
+    display: flex;
+    align-items: center;
+}
+
+#all{
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+.patisseries2{
+ padding-left: 50px;
+}
+#foods{
+    display: flex;
+    justify-content: center;
+}
+#foods img:hover{
+    transform: scale(1.2);
+}
+.food{
+    width: 30%;
+    border: 1px solid #f79999;
+    margin: 2%;
+    text-align: center;
+    padding: 2%;
+}
+.food h4:hover{
+    color: #df2020;
+}
+#food{
+    display: flex;
+    justify-content: center;
+}
+#food img:hover{
+    transform: scale(1.2);
+    }
+.food1{
+    width: 30%;
+    border: 1px solid #ee8f8f;
+    margin:   2%;
+    text-align: center;
+    padding: 2%;
+}
+.food1 h4:hover{
+    color: #df2020;
+}
+#food2{
+    display: flex;
+    justify-content: center;
+}
+.food2{
+    width: 30%;
+    border: 1px solid #e08484;
+    margin: 2%;
+    text-align: center;
+    padding: 2%;
+}
+.food2 img:hover{
+    transform: scale(1.2);
+    }
+ .food2 h4:hover{
+        color: #df2020;
+    }
+h1{
+        text-align: center;
+    }
+ #food3{
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+ .food3{
+        width: 30%;
+        border: 1px solid #eb8080;
+        margin:   2%;
+        text-align: center;
+        padding: 2%;
+    }
+.food3 h4:hover{
+        color: #df2020;
+    }
+#food3 img:hover{
+    transform: scale(1.2);
+    }
+ .brg{
+        width: 150px;
+        height: 150px;
+
+    }
+.btn{
+    background-color: #df2020;
+    border: 1px solid #df2020;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.prix{
+    color: #df2020;
+    border: none;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.nom{
+    text-align: center;
+
+}
+.br{
+    width: 200px;
+    height: 300px;
+}
+
+footer{
+    background-color: #f3cbcb;
+    padding-bottom: 0.5%;
+}
+#footer{
+    display: flex;
+}
+#div1{
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 3%;
+  }
+footer img{
+    width: 50px;
+    height: 50px;
+}
+#div2{
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#div3{
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#div4{
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+#mail{
+    border-radius: 50px;
+    padding: 10px 100px 10px 30px ;
+    border: 1px solid black;
+}
+
+#div5 p {
+    width: 100%;
+    text-align: center;
+}
+form{
+    border: 1px solid #f3cbcb;
+    background-color:  #f3cbcb;
+    width: 25%;
+    padding: 5%;
+    margin: 5%;
+   margin-left: 25%;
+}
+input{
+    background-color:  #f3cbcb;
+    padding: 2%;
+    color: rgb(126, 104, 104);;
+    border: 0.5px solid rgb(126, 104, 104);  
+}
+#btnconnexion{
+    border: 1px solid #df2020;
+    background-color: #df2020;
+    padding: 2%;
+    border-radius: 10%;
+    margin-left: 20%;
+}
+/* POUR ANDOID */
+ .aliment{
+    display: none;
+} 
+
+/*medias querries*/
+@media screen and (max-width:768px){
+  .contenu{
+    width: 100%;
+    }
+  footer{
+ width: 100%;
+  }
+#footer{
+  flex-direction: column;
+  justify-content: center;
+}
+#mail{
+  border-radius: 25px;
+  padding: 5px 50px 5px 15px ;
+  border: 1px solid black;
+}
+#food2{
+  flex-wrap: wrap;
+}
+#food3{
+  flex-wrap: wrap;
+}
+#services{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 30%;
+}
+#patisseries{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#texthero{
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+#food{
+    display: none;
+}
+#foods{
+    display: none;
+}
+#menu{
+    display: none;
+}
+#patisseries2{
+    display: flex;
+    border: 2px solid #df2020;
+    background-color: #df2020;
+    padding: 25px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 15%;
+}
+.prix{
+    margin-left: 1%;
+}
+#service :first-child{
+    margin-left: 5%;
+}
+#logo2 :nth-child(3){
+    display:contents;
+}
+#color{
+   transform: translate(-70px, -16px);
+}
+#mail{
+    border-radius: 50px;
+    padding: 10px 500px 5px 30px ;
+    border: 1px solid black;
+}
+.aliment{
+    display: contents;
+}
+#almt{
+    display: flex;
+} 
+#almt1{
+    display: flex;
+}
+#almt2{
+    display: flex;
+}
+.A{
+    width: 50%;
+    border: 1px solid #ee8f8f;
+    margin:   2%;
+    text-align: center;
+    padding: 2%;
+}
+.A1{
+    width: 50%;
+    border: 1px solid #ee8f8f;
+    margin:   2%;
+    text-align: center;
+    padding: 2%;
+}
+.A2{
+    width: 50%;
+    border: 1px solid #ee8f8f;
+    margin:   2%;
+    text-align: center;
+    padding: 2%;
+}
+}
+@media screen and  (max-width:576px){
+    footer{
+        width: 150%;
+         }
+       #footer{
+         flex-direction: column;
+         margin: auto;
+       }
+    .contenu{
+        width: 100%;
+       
+    }
+    #patisseries{
+        flex-direction: column;
+      }
+      #food2{
+        flex-direction: column;
+        justify-content: center;
+      }
+      #food3{
+        flex-direction: column;
+      }
+      #foods{
+        flex-direction: column;
+      }
+      #food{
+        flex-direction: column;
+      }
+      .food2{
+        width: 50%;
+        border: 1px solid #e08484;
+        margin: 2%;
+        text-align: center;
+        padding: 2%;
+        margin-left: 35%;
+    }
+    .food{
+        width: 50%;
+        border: 1px solid #e08484;
+        margin: 2%;
+        text-align: center;
+        padding: 2%;
+        margin-left: 35%;
+    }
+    .food1{
+        width: 50%;
+        border: 1px solid #e08484;
+        margin: 2%;
+        text-align: center;
+        padding: 2%;
+        margin-left: 35%;
+    }
+    .food3{
+        width: 50%;
+        border: 1px solid #e08484;
+        margin: 2%;
+        text-align: center;
+        padding: 2%;
+        margin-left: 35%;
+    }
+     .patisseries1{
+        border-radius: 5px;
+        background-color: #eeb5b5 ;
+        padding: 10px;
+        margin: 2%;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-left: 35%;
+    } 
+    #services{
+      margin-left: 35%;
+    }
+    footer{
+        background-color: #f3cbcb;
+        padding-bottom: 0.5%;
+    }
+    #footer{
+      margin-left: 35%;
+    }
+    #div1{
+        width:50%;
+        margin-left: 4%;
+        margin-top: 3%;
+      }
+    footer img{
+        width: 50px;
+        height: 50px;
+    }
+    #div2{
+        width: 50;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #div3{
+        width: 50%;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #div4{
+        width: 50%;
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #mail{
+        border-radius: 50px;
+        padding: 5px 50px 5px 15px ;
+        border: 1px solid black;
+    }
+    #almt2{
+      flex-direction: column ;
+      margin-left: 35%;
+      width: 100%;
+    }
+    #almt1{
+        flex-direction: column ;
+        margin-left: 35%;
+        width: 100%;
+      }
+    #almt{
+        flex-direction: column ;
+        margin-left: 35%;
+        width: 100%;
+      }
+      #patisseries2{
+        display: flex;
+        border: 2px solid #df2020;
+        background-color: #df2020;
+        padding: 20px;
+        justify-content: center;
+        border-radius: 20px;
+        width: 140%;
+    }
+    #text2{
+        justify-content: center;
+        margin-left: 35%;
+    }
+
+}
