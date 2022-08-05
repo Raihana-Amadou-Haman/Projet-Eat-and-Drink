@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="traitement.php">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenu" >
+        <header>
+            <div id="head">
+                <div id="logo1">
+                 <img src="assets/images/res-logo.png" alt="" width="50"; height="50">
+                 <p id="text"><strong> Eat & Drink</strong></p>
+                </div>
+               <div  id="menu">
+                  <nav>
+                   <a href="index.html">Accueil</a>
+                   <a href="repas.html">Repas</a>
+                   <a href="#">Panier</a>
+                   <a href="connexion.html">Contact</a>
+                   </nav>
+                </div>
+               <div id="logo2">
+                 <i class="fa-solid fa-basket-shopping icoo"></i>
+                 <a href="connexion.html"><i class="fa-solid fa-user icoo"></i></a>
+                 <i class="fa-solid fa-bars icoo "></i>
+               <span id="color">0</span>
+               </div> 
+           </div>
+        </header>
+          <form action="traitement.php" method="post">
+            <p>
+                <div><label for="prenom">Prenom</label></div>
+                <input type="text" name="prenom" value="i1">
+           </p>
+            <p>
+              <div><label for="Name">Nom</label></div> 
+               <input type="name" name="name" value="i2">
+            </p>
+            <p>
+                <div><label for="Email">Email</label></div>
+                <input type="email">
+            </p>
+            <p>
+              <div><label for="password">Mot de passe</label></div>
+                <input type="password" name="password" value="i3">
+            </p>
+            <p>
+              <div><label for="passwords" >Confirmation du mot de passe</label></div>
+                <input type="text" name="passwords" value="i4">
+            </p>
+            <p>Vous residdez  dans quel quartier de la ville de Yaoundé</p>
+            <p>
+                <input type="radio" name="boutton"> Bastos
+                <input type="radio" name="boutton"> Mendong
+                <input type="radio" name="boutton">Odea
+                <input type="radio" name="boutton">Ngoa
+                <input type="radio" name="boutton">Essos
+                <input type="radio" name="boutton"> NKOLMBONG
+            </p>
+      
+            <button id="btnconnexion">Connexion</button>
+          </form>
+    </div>   
+        
+
+</body>
+
+<footer>
+    <div id="footer">
+      <div id="div1">
+        <img src="assets/images/res-logo.png" alt="">
+        <p id="text"><strong> Eat & Drink</strong></p>
+        <P> Jamais trop de frites, une pepite de poulet est ce ce qu'il vous faut, 
+         savourez la saveur c'est le jour de la triche n'aies pas peur</P>
+      </div>
+      <div id="div2">
+       <h3>Heure de Livraison</h3>
+       <h5>Dimanche-Lundi</h5>
+       <p>10h00  à  23h00</p>
+       <h5>Vendredi-Samedi</h5>
+       <p>Fermé</p> 
+      </div>
+      <div id="div3">
+       <h4>Contact</h4>
+       <h5>Yaoundé CMR Ngoa-Ekélle</h5>
+       <h5>phone: +237 694 00 00 00</h5>
+       <h6>Email: eatdrink@email.Commande</h6>
+      </div>
+      <div id="div4">
+       <h4>Newsletter</h4>
+       <p>Abonnez-vous à notre newsletter</p>
+       <button id="mail">Votre email</button>
+      </div>
+    </div>
+    <div id="div5">
+      <hr>
+      <p>
+        Nous suivre 
+       <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-youtube"></i>
+
+      </i></p>
+    </div>
+   </footer>
+</html>

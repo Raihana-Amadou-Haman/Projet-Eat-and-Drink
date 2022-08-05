@@ -26,12 +26,16 @@
 #logo2 :nth-child(3){
     display: none;
 }
+#logo2 a {
+    color: black;
+}
 #text{
     margin-top: 1px;
 }
 #menu{
-  margin-top: 40px;
-  word-spacing: 15px;
+    margin-top: 27px;
+    word-spacing: 41px;
+    font-weight: bold;
 }
 #menu a {
     text-decoration: none;
@@ -248,6 +252,8 @@ h1{
     height: 300px;
 }
 
+
+
 footer{
     background-color: #f3cbcb;
     padding-bottom: 0.5%;
@@ -289,13 +295,14 @@ footer img{
     width: 100%;
     text-align: center;
 }
+/* PROJET 2 */
 form{
     border: 1px solid #f3cbcb;
     background-color:  #f3cbcb;
-    width: 25%;
     padding: 5%;
     margin: 5%;
-   margin-left: 25%;
+    width: 25%;
+    margin-left: 35%;
 }
 input{
     background-color:  #f3cbcb;
@@ -310,6 +317,7 @@ input{
     border-radius: 10%;
     margin-left: 20%;
 }
+
 /* POUR ANDOID */
  .aliment{
     display: none;
@@ -341,7 +349,6 @@ input{
 #services{
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 30%;
 }
 #patisseries{
   flex-wrap: wrap;
@@ -425,16 +432,27 @@ input{
 }
 @media screen and  (max-width:576px){
     footer{
-        width: 150%;
+        width: 100%;
          }
        #footer{
          flex-direction: column;
          margin: auto;
        }
+       .aliment{
+        display: none;
+       }
+       #food{
+        display: contents;
+    }
+    #foods{
+        display:contents;
+    }
+       
     .contenu{
         width: 100%;
-       
+        justify-content: center;
     }
+
     #patisseries{
         flex-direction: column;
       }
@@ -457,15 +475,15 @@ input{
         margin: 2%;
         text-align: center;
         padding: 2%;
-        margin-left: 35%;
+        margin-left: 25%;
     }
     .food{
         width: 50%;
         border: 1px solid #e08484;
         margin: 2%;
         text-align: center;
-        padding: 2%;
-        margin-left: 35%;
+        margin-left: 25%;
+        width: 50%;
     }
     .food1{
         width: 50%;
@@ -473,7 +491,7 @@ input{
         margin: 2%;
         text-align: center;
         padding: 2%;
-        margin-left: 35%;
+        margin-left: 25%;
     }
     .food3{
         width: 50%;
@@ -481,9 +499,9 @@ input{
         margin: 2%;
         text-align: center;
         padding: 2%;
-        margin-left: 35%;
+        margin-left: 25%;
     }
-     .patisseries1{
+    .patisseries1{
         border-radius: 5px;
         background-color: #eeb5b5 ;
         padding: 10px;
@@ -491,10 +509,10 @@ input{
         display: flex;
         align-items: center;
         width: 50%;
-        margin-left: 35%;
-    } 
+        margin-left: 25%;
+    }
     #services{
-      margin-left: 35%;
+      margin-left: 25%;
     }
     footer{
         background-color: #f3cbcb;
@@ -532,33 +550,4 @@ input{
         padding: 5px 50px 5px 15px ;
         border: 1px solid black;
     }
-    #almt2{
-      flex-direction: column ;
-      margin-left: 35%;
-      width: 100%;
-    }
-    #almt1{
-        flex-direction: column ;
-        margin-left: 35%;
-        width: 100%;
-      }
-    #almt{
-        flex-direction: column ;
-        margin-left: 35%;
-        width: 100%;
-      }
-      #patisseries2{
-        display: flex;
-        border: 2px solid #df2020;
-        background-color: #df2020;
-        padding: 20px;
-        justify-content: center;
-        border-radius: 20px;
-        width: 140%;
-    }
-    #text2{
-        justify-content: center;
-        margin-left: 35%;
-    }
-
 }

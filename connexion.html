@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="connexion.php">
     <title>Document</title>
 </head>
 <body>
@@ -16,34 +17,32 @@
             <img src="assets/images/res-logo.png" alt="" width="50"; height="50">
             <p id="text"><strong> Eat & Drink</strong></p>
            </div>
-          <div  id="menu">
+           <div  id="menu">
             <nav>
-             <a href="#">Accueil</a>
-             <a href="#">Repas</a>
-             <a href="#">Panier</a>
-             <a href="#">Contact</a>
+             <a href="index.html">Accueil</a>
+             <a href="repas.html">Repas</a>
+             <a href="inscription.html">Panier</a>
+             <a href="connexion.html">Contact</a>
              </nav>
           </div>
           <div id="logo2">
             <i class="fa-solid fa-basket-shopping icoo"></i>
-            <i class="fa-solid fa-user icoo"></i>
+            <a href="connexion.html"><i class="fa-solid fa-user icoo"></i></a>
             <i class="fa-solid fa-bars icoo "></i>
           <span id="color">0</span>
           </div> 
          </div>
        </header>
-       <div>
-        <img src="" alt="Image">
+       <div id="connexion">
+       
        </div>
-       <form action="">
-        <p>
-            <label for="mail">E-mail</label>
-           <input type="mail">
-        </p>
-        <p>
-            <label for="password">Mot de passe</label>
-            <input type="password"">
-        </p>
+       <form action="connexion.php" method="post">
+
+            <div><label for="mail">E-mail</label></div>
+           <input type="mail" name="mail" value="v1">  <br>
+
+          <div><label for="password">Mot de passe</label></div>
+            <input type="password" name="passsword" value="v2"> <br>
         <button id="btnconnexion">Connexion</button>
        </form>
    </div> 
